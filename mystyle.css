@@ -1,0 +1,233 @@
+body{
+	margin:0;
+	background-color: #000;
+}
+
+#container{
+	height: 100%;
+	margin: 0 50px;
+	background-color: #d3d3d3;
+}
+/*设置导航栏样式 */
+header{
+	position: relative;
+	padding-left:30px;
+	background-color:#008B8B;
+}
+
+nav{
+	float: right;
+	overflow: hidden;
+}
+
+/*导航栏图片样式 使图片垂直居中显示*/
+.logo{
+	width: 150px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+/*导航栏列表*/
+.list{
+	float: right;
+	vertical-align: middle;
+	margin:15px 0;
+}
+
+/*每一个列表项横向排列 垂直居中显示*/
+.list li{
+	float:left;
+	width:100px;
+	margin-top: 3px;
+	font-size: 10px;
+	color: #fff;
+}
+
+#main{
+	margin:15px 415px 15px 15px ;
+}
+
+/*区块样式*/
+#chap-style{
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px 20px 20px 20px;
+	background-color:#fff;
+	outline:2px outset #d3d3d3;
+
+}
+/*区块二级标题样式*/
+#chap-style h2{
+	color: #808080;
+}
+
+#chap-style h5{
+	color: #d3d3d3;
+}
+
+/*对行内规定字段文字加粗*/
+#chap-style span{
+	font-weight: bold;
+}
+/*段落首字母缩进*/
+
+.pic{
+	width: 30%;
+	height: 25%;
+}
+
+.style{
+	text-indent: 2em;
+}
+/*取消列表符号*/
+.item{
+	list-style-type: none;
+}
+
+/*图片区块样式*/
+.beau-pic{
+	float: left;
+	width: 120px;
+	height: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border:1px solid #d3d3d3;
+	font-size: 10px;
+	text-align: center;
+}
+
+/*图片区图片*/
+.beau-pic img{
+	width: 100px;
+	height: 100px;
+}
+
+/*表格样式 以父对象为基准设置宽度
+  消除单元格间距*/
+.dest{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/*网格线样式*/
+.dest td,th{
+	border:1px solid #d3d3d3;
+	padding: 3px 7px 2px 7px;
+}
+
+/*标题行样式*/
+.dest th{
+	font-size: 1.1em;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.dest td{
+	color: #000000;
+	font-size:1em;
+}
+
+/*最后一行样式*/
+.dest tr.last{
+	color: #000000;
+	background-color: #d3d3d3;
+	font-size: 1.1em;
+}
+
+/*侧边栏样式*/
+#side{
+	position: absolute;
+	right: 65px;
+	top: 65px;
+	width: 300px;
+	padding:20px 20px 20px 20px;
+	background-color: #fff;
+	outline:2px outset #d3d3d3;
+
+}
+
+#side h2{
+	padding-left: 5px;
+	border-left: 2px solid #d3d3d3;
+}
+
+/*form 字体样式*/
+form{
+	font-size: 0.5em;
+}
+
+/*标签样式：设置表单对齐 行高 文字右对齐*/
+label{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	padding: 0 10px;
+	text-align: right;
+	line-height: 25px;
+}
+
+label[for="sex"],label[for="city"],label[for="hobby"]{
+	margin-top: -4px;
+	margin-bottom: 5px;
+}
+/*表单样式*/
+
+
+form p{
+	padding-left: 120px;
+	color: #d3d3d3;
+}
+
+/*每次换行清除浮动样式*/
+form br{
+	clear: left;
+}
+
+/*电子邮件与密码输入框格式*/
+input[type="text"]{
+	width: 120px;
+	border: 1px solid #d3d3d3;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-bottom: 1px;
+}
+
+textarea{
+	display: inline-block;
+	height: 50px;
+	margin-top: 5px;
+}
+
+/*提交按钮样式*/
+#subutton{
+	width: 100%;
+	height: 30px;
+	border: 0px;
+	border-radius: 10px;
+	background-color: #008B8B;
+	color: #fff;
+	font-size: 1em;
+
+}
+
+/*底栏样式*/
+footer{
+	height: 50px;
+	background-color: #008B8B;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+
+
+
